@@ -2,67 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Apex Gain Application</title>
-    <style>
-        /* Color Palette */
-        :root {
-            --primary-color: #2c3e50;      /* Dark Blue */
-            --secondary-color: #2980b9;    /* Blue */
-            --accent-color: #e67e22;       /* Orange */
-            --bg-color: #ecf0f1;           /* Light Grey */
-            --text-color: #2c3e50;         /* Dark Text */
-            --code-bg: #34495e;            /* Dark Code Background */
-            --code-color: #ecf0f1;         /* Light Code Text */
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 2rem;
-        }
-
-        h1 {
-            color: var(--primary-color);
-            border-bottom: 2px solid var(--secondary-color);
-            padding-bottom: 0.5rem;
-        }
-
-        h2 {
-            color: var(--secondary-color);
-            margin-top: 2rem;
-        }
-
-        ul {
-            margin: 0.5rem 0 1rem 2rem;
-        }
-
-        code {
-            background-color: var(--code-bg);
-            color: var(--code-color);
-            padding: 0.2rem 0.4rem;
-            border-radius: 4px;
-        }
-
-        pre {
-            background-color: var(--code-bg);
-            color: var(--code-color);
-            padding: 1rem;
-            border-radius: 6px;
-            overflow-x: auto;
-        }
-
-        .highlight {
-            color: var(--accent-color);
-            font-weight: bold;
-        }
-
-        li {
-            margin-bottom: 0.5rem;
-        }
-
-</style>
 </head>
 <body>
 <h1>Apex Gain Application</h1>
