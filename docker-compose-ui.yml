@@ -1,0 +1,12 @@
+services:
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: apex_gain_pgadmin
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@apexgain.com
+      PGADMIN_DEFAULT_PASSWORD: admin123
+    ports:
+      - "8081:80"
+    networks:
+      - app-net

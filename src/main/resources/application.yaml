@@ -1,0 +1,19 @@
+server:
+  port: 3000
+
+spring:
+  application:
+    name: apex-gain
+  datasource:
+    url: jdbc:postgresql://localhost:5432/apex-gain
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  devtools:
+    restart:
+      enabled: true
+    livereload:
+      enabled: true
