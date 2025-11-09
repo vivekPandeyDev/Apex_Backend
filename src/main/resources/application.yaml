@@ -5,7 +5,7 @@ spring:
   application:
     name: apex-gain
   datasource:
-    url: jdbc:postgresql://postgres:5432/apex-gain
+    url: jdbc:postgresql://localhost:5432/apex-gain
     username: root
     password: root
   jpa:
